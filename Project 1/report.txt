@@ -1,0 +1,8 @@
+Syd Lynch
+CIS 415
+Project 1
+
+My USPSV1 and V2 seem to be in complete working condition, able to process arguments
+correctly, fork processes, and send/receive signals. My USPSV3 is almost in working 
+condition, but is not complete as I ran into an issue with my alarm handler that ends
+the scheduling prematurely despite great efforts to resolve it. USPSV4 is simply a copy of V3, I was not able to get to the /proc/ output. Valgrind reports no memory leaks in any file.
